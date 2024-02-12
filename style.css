@@ -1,0 +1,56 @@
+body {
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'East Sea Dokdo', cursive;
+  background-image: url(image/persimmon.jpg);
+}
+.container {
+  height: 540px;
+  width: 375px;
+  border-radius: 20px;
+  text-align: center;
+  background-color: whitesmoke;
+  background-image: url(image/card.jpg);
+  background-size: contain;
+}
+.title {
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+.button-style {
+  height: 50px;
+  width: 75px;
+  border-radius: 50px;
+  margin-top: 30px;
+  font-size: 12pt;
+  font-weight: bold;
+  margin: 0 10px;
+  margin-bottom: 200px;
+}
+#go-btn {
+  background-color: rgb(182, 30, 30);
+}
+#reset-btn {
+  background-color: rgb(198, 192, 28);
+}
+.form-control {
+  height: 30px;
+  width: 180px;
+  font-size: 25px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+.text {
+  font-weight: bold;
+}
+@media (max-width: 500px) {
+  body {
+    min-width: 500px;
+  }
+}
