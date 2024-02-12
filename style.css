@@ -33,10 +33,13 @@ body {
   margin-bottom: 200px;
 }
 #go-btn {
-  background-color: rgb(182, 30, 30);
+  background-color: black;
+  color: white;
+  border: none;
 }
 #reset-btn {
-  background-color: rgb(198, 192, 28);
+  background-color: gray;
+  border: none;
 }
 .form-control {
   height: 30px;
@@ -45,6 +48,8 @@ body {
   text-align: center;
   margin-top: 20px;
   margin-bottom: 40px;
+  background-color: whitesmoke;
+  outline: none;
 }
 .text {
   font-weight: bold;
