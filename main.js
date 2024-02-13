@@ -21,11 +21,11 @@ function pickRandomNum() {
 function play() {
   let userValue = userInput.value;
   if (userValue > 100) {
-    resultArea.textContent = '1~100까지의 숫자를 입력하세요!';
+    resultArea.textContent = '1~100 사이의 숫자를 선택하세요';
     return;
   }
   if (userValueList.includes(userValue)) {
-    resultArea.textContent = '이미 입력한 숫자입니다. 다시 입력하세요!';
+    resultArea.textContent = '이미 입력한 숫자입니다. 다시 입력하세요.';
     return;
   }
 
@@ -52,7 +52,7 @@ function play() {
 function reset() {
   pickRandomNum();
   userInput.value = '';
-  resultArea.textContent = '결과값이 여기 나옵니다.';
+  resultArea.textContent = '1~100 사이의 숫자를 선택하세요';
   gameOver = false;
   userButton.disabled = false;
   chances = 5;

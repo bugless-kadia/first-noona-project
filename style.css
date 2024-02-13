@@ -5,7 +5,7 @@ body {
   justify-content: center;
   align-items: center;
   font-family: 'East Sea Dokdo', cursive;
-  background-image: url(image/persimmon.jpg);
+  background-image: url(images/persimmon.jpg);
 }
 .container {
   height: 540px;
@@ -13,14 +13,14 @@ body {
   border-radius: 20px;
   text-align: center;
   background-color: whitesmoke;
-  background-image: url(image/card.jpg);
+  background-image: url(images/card.jpg);
   background-size: contain;
 }
 .title {
-  font-size: 30px;
+  font-size: 26px;
   font-weight: bold;
   margin-top: 30px;
-  margin-bottom: 50px;
+  margin-bottom: 55px;
 }
 .button-style {
   height: 50px;
